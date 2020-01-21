@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "276474009057",
+    "firebase_url": "https://csis-3175-project.firebaseio.com",
+    "project_id": "csis-3175-project",
+    "storage_bucket": "csis-3175-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276474009057:android:3207dd963ae89b1aeaeea0",
+        "android_client_info": {
+          "package_name": "com.example.marketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276474009057-smjjn4b9rdormmpu1kc0vvuea0pp3bg5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marketplace",
+            "certificate_hash": "0010a860c76b00a37ede39f07eb5a451270354cb"
+          }
+        },
+        {
+          "client_id": "276474009057-5c1mqcfq32o06q9sjsf4dpru8b14hj9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJriQM3ayzGBzoqsQOZPLDy_sWnN6EdU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276474009057-5c1mqcfq32o06q9sjsf4dpru8b14hj9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

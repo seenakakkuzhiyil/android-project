@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:background="@color/tan"
+    android:layout_width="match_parent"
+    android:layout_marginTop="70dp"
+    android:padding="20dp"
+    android:minWidth="350dp"
+    android:minHeight="450dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewCloseWindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/close"
+        android:layout_gravity="end"
+        />
+
+    <TextView
+        android:id="@+id/textViewFilterHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/text_search_popup_heading" />
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="@string/text_updload_subtitle" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/radioGroupCategory">
+
+        <RadioButton
+            android:id="@+id/radioButtonAppliances"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/text_appliances" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAutombiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/text_automobiles" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBeauty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/text_beauty" />
+
+        <RadioButton
+            android:id="@+id/radioButtonElectronics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/text_electronics" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:text="@string/text_Price_filter" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:id="@+id/radioGroupPriceRange">
+
+        <RadioButton
+            android:id="@+id/radioButtonUnder100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/text_below_100" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBetween100And500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/text_between_100_and_500" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAbove500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/text_Above_500" />
+
+    </RadioGroup>
+
+
+
+
+    <Button
+        android:id="@+id/buttonSubmitFilter"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/textfield"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/text_submit_filter"
+
+        />
+
+
+</LinearLayout>

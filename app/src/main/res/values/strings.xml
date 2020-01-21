@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">MarketPlace</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="textForgotPassword">Forgot your password?</string>
+    <string name="textSignUp">Sign Up</string>
+    <string name="textLogout">Logout</string>
+    <string name="textCurrentUser" />
+    <string name="textLogin">Sign in</string>
+    <string name="textGoogleSignIn">Google Sign in</string>
+    <string name="textSell">Sell</string>
+    <string name="textBuy">Buy</string>
+    <string name="textCategoryTitle">Choose Category</string>
+    <string name="username">Username</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="text_home_fragment">My Uploads</string>
+    <string name="text_profile_fragment">Profile Information</string>
+    <string name="text_messages_fragment">Messages and Requests</string>
+    <string name="text_addproduct_fragment">Add Your Product</string>
+    <string name="text_wallet_fragment">Wallet</string>
+    <string name="text_logout_fragment">Logout</string>
+    <string name="text_profile_update">Update Profile</string>
+    <string name="text_hint_firstname">First Name</string>
+    <string name="text_hint_lastname">Last Name</string>
+    <string name="text_hint_email">Email</string>
+    <string name="text_hint_phone">Phone</string>
+    <string name="text_hint_product_name">Product Name</string>
+    <string name="text_hint_product_description">Product Description</string>
+    <string name="text_prompt">Choose Category</string>
+    <string name="text_hint_product_price">Product Price</string>
+    <string name="text_add_product">Add Product</string>
+    <string name="text_product_name">Product Name</string>
+    <string name="text_product_description">Product Description</string>
+    <string name="text_product_price">Product Price</string>
+    <string name="text_updte_product">Update</string>
+    <string name="text_delete_product">Delete</string>
+    <string name="text_buyer_my_products">My Products</string>
+
+
+    <string-array name="spinner_enteries">
+        <item>Appliances</item>
+        <item>Automobiles</item>
+        <item>Beauty</item>
+        <item>Electronics</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_buy_product">Buy</string>
+    <string name="text_filter">Filter</string>
+    <string name="text_search_popup_heading">Search Filter</string>
+    <string name="text_updload_subtitle">Category</string>
+    <string name="text_appliances">Appliances</string>
+    <string name="text_automobiles">Automobiles</string>
+    <string name="text_beauty">Beauty</string>
+    <string name="text_electronics">Electronics</string>
+    <string name="text_Price_filter">Price Range</string>
+    <string name="text_below_100">Under $100</string>
+    <string name="text_between_100_and_500">Between $100 and $500</string>
+    <string name="text_Above_500">Above $500</string>
+    <string name="text_submit_filter">Submit</string>
+    <string name="text_home_buyer_fragment">Uploads</string>
+
+
+    <string name="text_approve">Approve</string>
+    <string name="text_reject">Reject</string>
+    <string name="text_item_name">Item Name</string>
+    <string name="text_cancel">Cancel Request</string>
+
+
+</resources>

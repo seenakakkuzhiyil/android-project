@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewForProducts"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="6dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="6dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="20dp"
+    app:cardElevation="8dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewProductRecyclerName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/text_product_name"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageViewProductRecyclerImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/textViewProductRecyclerName"
+            android:layout_marginLeft="50dp"
+
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/textfield"
+            android:foregroundGravity="center_vertical"
+            android:padding="5dp" />
+
+
+        <TextView
+            android:id="@+id/textViewProductRecyclerDescription"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/imageViewProductRecyclerImage"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="3"
+            android:autoSizeMaxTextSize="18sp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="@string/text_product_description" />
+
+        <TextView
+            android:id="@+id/textViewProductRecyclerPrice"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textViewProductRecyclerDescription"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/text_product_price"
+
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonUpdateProduct"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textViewProductRecyclerPrice"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:autoSizeMaxTextSize="18sp"
+
+            android:background="@drawable/buttons"
+            android:padding="10dp"
+            android:text="@string/text_updte_product"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonDeleteProduct"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textViewProductRecyclerPrice"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/buttonUpdateProduct"
+            android:layout_toRightOf="@+id/buttonUpdateProduct"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="@string/text_delete_product"
+            android:background="@drawable/buttons"
+            android:padding="5dp"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
