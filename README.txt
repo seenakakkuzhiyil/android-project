@@ -6,7 +6,7 @@ If android studio version is below 3.5, changes to be made in the gradle files
 -> build.gradle (Module: app)
    minSdkVersion 15
 
-As we are using firebase Database signIn using emailId, when you run the program you have to update the google services from the app store. Phone should be prompting that when you are try to sign up.
+As we are using firebase Database signIn is using emailId, when you run the program you have to update the google services from the app store. Phone should be prompting that when you try to sign up.
 
 
 App Description
